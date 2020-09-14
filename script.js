@@ -1,6 +1,6 @@
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+// arrays for the random password generator to pull from
 var lowerCaseCharacters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 var upperCaseCharacters = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 var specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "\\", "_", "+", "<", ">", "?", "'",];
@@ -12,16 +12,10 @@ generateBtn.addEventListener("click", writePassword);
   function generatePassword() {
     var confirmLength = (prompt("Please provide us with required length of your password."));
 
-    // while (confirmLength === null)
-    //   alert("You will need to enter a number between 8 and");
-    //   var confirmLength = (prompt("Please provide us with required length of your password."));}
-
     // Confirming that the password length is between 8 and 128 characters long and that it is a number
     while (isNaN(confirmLength) || confirmLength <= 7 || confirmLength >= 129) {
       alert("Your password needs to be between 8 and 128 characters long.");
       var confirmLength = (prompt("Please provide us with required length of your password."));}
-
-      
 
       // confirmation email that the value provided is within the guidelines
       alert("Your password will be " + confirmLength + " characters long.");
