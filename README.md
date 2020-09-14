@@ -8,24 +8,24 @@ With this project, the objective was to create a functional password generator. 
 
 2. Which is followed by an alert box stating how long your password is.
 
-<img src = "readMeAssets/passwordLengthConfirmation.PNG"
+<img src ="readMeAssets/passwordLengthConfirmation.PNG">
 
 3. After this, you will be asked if you what to include lower case letters in your password.
 
-<img src ="readMeAssets/lowerCase.PNG"
+<img src ="readMeAssets/lowerCase.PNG">
 
 4. A box asking if you want to have upper case letters.
 
-<img src ="readMeAssets/upperCase.PNG"
+<img src ="readMeAssets/upperCase.PNG">
 
 5. A box asking if you want to have special characters letters.
 
-<img src ="readMeAssets/specialChar.PNG"
+<img src ="readMeAssets/specialChar.PNG">
 
 6. Lastly, you will be asked if you want numbers in your password.
 
-<img src ="readMeAssets/numbers.PNG"
+<img src ="readMeAssets/numbers.PNG">
 
 7. After all of these you are presented with a password. 
 
-<img src ="readMeAssets/randomPassword.PNG"
+<img src ="readMeAssets/randomPassword.PNG">
