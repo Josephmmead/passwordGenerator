@@ -29,3 +29,7 @@ With this project, the objective was to create a functional password generator. 
 7. After all of these you are presented with a password. 
 
 <img src ="readMeAssets/randomPassword.PNG">
+
+### Link to the working project
+
+(https://josephmmead.github.io/passwordGenerator/)
